@@ -37,7 +37,7 @@ export const projects: Project[] = [
     name: "OpenAI API Integration",
     tech: ["Spring Boot", "React", "GPT-4"],
     year: "2025",
-    category: "AI Projects",
+    category: "BACKEND",
     image: "https://picsum.photos/seed/ift-openai/600/440",
   },
   {
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     name: "Payment Gateway Service",
     tech: ["Spring Boot", "Stripe API", "React"],
     year: "2024",
-    category: "API Integration",
+    category: "FRONTEND",
     image: "https://picsum.photos/seed/ift-stripe/600/440",
   },
   {
