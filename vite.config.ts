@@ -10,6 +10,12 @@ export default defineConfig({
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
-    server: { entry: "server" },
+    server: { entry: "server" },[cite: 2]
   },
+  // ক্লাউডফ্লেয়ার পেজেসের জন্য নাইট্রো ডেপ্লয় ফোর্স-অ্যাক্টিভেট করা হলো
+  vite: {
+    nitro: {
+      preset: "cloudflare-pages"
+    }
+  }
 });
